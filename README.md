@@ -10,7 +10,12 @@
 npm install
 npm test        # 星芽与网关协议单元测试
 npm run build   # 类型检查并构建前端
+npm run dev     # 浏览器打开 http://127.0.0.1:1420/ 预览星芽外壳
 ```
+
+浏览器预览用内存演示数据，可以看表情、动作和互动菜单；透明浮窗、拖动与贴边要等 Tauri 工程接入后才能在桌面上看到。每个 PR 的 verify 检查会上传 `starbuddy-preview` 产物，里面有一张星芽截图和构建好的 `dist/`。
+
+![浏览器预览](docs/starbuddy-browser-preview.png)
 
 ## 文档
 
